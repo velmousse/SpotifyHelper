@@ -9,6 +9,13 @@ namespace SpotifyHelper
     /// </summary>
     public partial class App : Application
     {
+        private string ApiKey = string.Empty;
+
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            CodePrompt codeWindow = new CodePrompt();
+            codeWindow.Show();
+        }
     }
 
 }

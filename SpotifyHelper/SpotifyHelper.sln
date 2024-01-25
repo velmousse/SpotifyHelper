@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyHelper", "SpotifyHelper.csproj", "{5D5E4FC3-203C-4A8A-BE91-C5C4D2DE2323}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyHelper", "SpotifyHelper.csproj", "{6BDAFC9F-D5A4-498F-9558-8A086C689FFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5D5E4FC3-203C-4A8A-BE91-C5C4D2DE2323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D5E4FC3-203C-4A8A-BE91-C5C4D2DE2323}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D5E4FC3-203C-4A8A-BE91-C5C4D2DE2323}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D5E4FC3-203C-4A8A-BE91-C5C4D2DE2323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BDAFC9F-D5A4-498F-9558-8A086C689FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDAFC9F-D5A4-498F-9558-8A086C689FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDAFC9F-D5A4-498F-9558-8A086C689FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDAFC9F-D5A4-498F-9558-8A086C689FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BC2C0D16-5DA2-4638-9F20-93A0D6A23CBD}
+		SolutionGuid = {B73BFFD1-BAAA-4257-87C9-0AB0C79CC7B3}
 	EndGlobalSection
 EndGlobal

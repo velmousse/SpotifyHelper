@@ -1,0 +1,30 @@
+﻿<Window x:Class="SpotifyHelper.CodePrompt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpotifyHelper"
+        mc:Ignorable="d"
+        Title="Spotify Key" Height="300" Width="500" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        
+        <Label Grid.Row="1" Content="Client ID:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0"/>
+        <TextBox Name="ClientIdTxt" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="10,0,10,0" Height="22" KeyDown="OnKeyDownHandler"/>
+        
+        <Label Grid.Row="3" Content="Client Secret:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0"/>
+        <TextBox Name="ClientSecretTxt" Grid.Row="4" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="10,0,10,0" Height="22" KeyDown="OnKeyDownHandler"/>
+
+        <Label Name="ErrorTxt" Grid.Row="6"  Content="Please enter valid Spotify credentials." Margin="5,0,0,0" Visibility="Hidden" Foreground="Red"/>
+        <Button Name="RegisterBtn" Grid.Row="6" Content="Register" HorizontalAlignment="Right" Margin="0,0,10,0" Width="100" Height="25" Click="RegisterBtn_Click"/>
+    </Grid>
+</Window>
